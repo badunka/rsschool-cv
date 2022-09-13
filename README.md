@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://badunka.github.io/rsschool-cv/cv
