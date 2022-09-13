@@ -1,9 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+<head>
+    <title>Test</title>
+    <meta charset="utf-8">
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+    ...
+    <!-- Elements in English: without lang attribute -->
+    <p>Hello World</p>
+    ...
+    <!-- Elements in other languages: with lang attribute -->
+    <p lang="de">Hallo Welt</p>
+    ...
+    <!-- Elements with Unknown language: with lang (zxx) attribute -->
+    <p lang="zxx">Lorem ipsum</p>
+    ...
+    <!-- Mixed -->
+    <p>This Page contains <span lang="zxx">Lorem ipsum</span> Text!</p>
+    <p>German Words like: <span lang="de">Hallo, Welt</span></p>
+    <p lang="zxx">Lorem ipsum <span lang="en">Hello World</span></p>
+    <p>The language is in <span title="Spanish" lang="es">Español</span></p>
+    ...
 </body>
 </html>
