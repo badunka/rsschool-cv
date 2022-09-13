@@ -1,1 +1,1 @@
-# https://badunka.github.io/rsschool-cv/cv
+# https://badunka.github.io/rsschool-cv/
